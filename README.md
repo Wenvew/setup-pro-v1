@@ -56,7 +56,7 @@ ssh root@IP_DO_SEU_SERVIDOR
 Copie e cole o comando abaixo no seu terminal para baixar o script de instalação.
 
 ```bash
-curl -L -o install-traefik.sh https://github.com/Wenvew/setup-pro-v1.git/main/install-traefik.sh
+curl -L -o setup-provider.sh https://github.com/Wenvew/setup-pro-v1.git/main/setup-provider.sh
 ```
 
 
@@ -65,7 +65,7 @@ curl -L -o install-traefik.sh https://github.com/Wenvew/setup-pro-v1.git/main/in
 Precisamos dar permissão para que o sistema possa executar o arquivo que baixamos.
 
 ```bash
-chmod +x install-traefik.sh
+chmod +x setup-provider.sh
 ```
 
 ### Passo 4: Configure Suas Variáveis
@@ -73,7 +73,7 @@ chmod +x install-traefik.sh
 Esta é a única parte que você precisa editar. Abra o arquivo com o editor de texto `nano`.
 
 ```bash
-nano install-traefik.sh
+nano setup-provider.sh
 ```
 
 No topo do arquivo, você verá uma seção de configuração. Altere os valores para os seus.
@@ -111,7 +111,7 @@ Após editar, salve e saia do `nano`:
 Agora, a mágica acontece. Execute o script como `root` (ou com `sudo`).
 
 ```bash
-sudo ./install-traefik.sh
+sudo ./setup-provider.sh
 ```
 
 O script começará a trabalhar. Ele vai instalar tudo, configurar a rede, o Docker e o Swarm.
