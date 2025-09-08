@@ -56,10 +56,9 @@ ssh root@IP_DO_SEU_SERVIDOR
 Copie e cole o comando abaixo no seu terminal para baixar o script de instalação.
 
 ```bash
-curl -L -o install-traefik.sh https://raw.githubusercontent.com/seu-usuario/seu-repositorio/main/install-traefik.sh
+curl -L -o install-traefik.sh https://github.com/Wenvew/setup-pro-v1.git/main/install-traefik.sh
 ```
 
-*(**Nota:** Substitua a URL acima pela URL real do seu script no GitHub ou outra fonte.)*
 
 ### Passo 3: Torne o Script Executável
 

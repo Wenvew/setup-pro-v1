@@ -22,8 +22,8 @@ set -euo pipefail
 ### =================================================================== ###
 
 DOMAIN="fluxe.one"                       # Seu domínio principal gerenciado pela Cloudflare.
-TRAEFIK_HOST="teste-traefik.${DOMAIN}"   # O endereço completo (FQDN) para o dashboard do Traefik.
-ACME_EMAIL="infra@fluxe.one"             # E-mail para notificações do Let's Encrypt (expiração de certs).
+TRAEFIK_HOST="traefik-teste.${DOMAIN}"   # O endereço completo (FQDN) para o dashboard do Traefik.
+ACME_EMAIL="traefik@fluxe.one"             # E-mail para notificações do Let's Encrypt (expiração de certs).
 DASH_USER="superadmin"                   # Usuário para a autenticação do dashboard.
 
 ### =================================================================== ###
